@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#banan, #banan2 {
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.topnav a:hover, #banan:hover {
+    background-color: lightcyan;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.Title {
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: larger;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightcyan;
+}
+
+.Menu {
+    overflow: hidden;
+    background-color: black;
+}
+
+.Menu a {
+    background-color: black;
+    float: left;
+    color: white;
+    font-family: "Arial", Helvetica, sans-serif;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    background-color: gray;
+}
+
+@media screen and (max-width: 400px) {
+    .Menu a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ThreeColumnSide {
+    float: left;
+    font-family: "Arial", Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.threeColumnMiddle {
+    float: left;
+    font-family: "Arial", Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 75%;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.ThreeColumn {
+    float: left;
+    font-family: "Arial", Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 33%;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px) {
+    .ThreeColumn {
+        width: 100%;
+    }
+    .ThreeColumnSide {
+        width: 100%;
+    }
+    .threeColumnMiddle {
+        width: 100%;
+    }
+}
+
+.OneColumn {
+    float: left;
+    font-family: "Arial", Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.Responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+table,th,td {
+    border: 1px solid black;
+}
+table {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 40%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+th {
+    color: white;
+    background-color: black;
+}
+td:hover {
+    background: lightcyan;
+}
+td {
+    background-color: white;
+}
+
+.Comments {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+.nadpis h1 {
+    font-size: 40px;
+}
+
+.Comments {
+    text-align: center;
+    visibility: hidden;
+}
+
+button {
+    text-align: center;
+}
